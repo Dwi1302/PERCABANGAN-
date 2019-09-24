@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int x,y;
+  int z;
+  
+  cout<<"\t\t\t*SELAMAT DATANG DI PROGRAM PENJUMLAHAN*"<<endl;
+  cout<<"\n\nMasukkan Nilai x = ";
+  cin>>x;
+  cout<<"Masukkan Nilai Y = ";
+  cin>>y;
+  cout<<"\nHASIL DARI X+Y = "<<x+y<<endl;
+  z=x+y;
+  
+  if (z>=0) {
+    cout<<"\nNilai Dari Hasil Adalah Positif ";
+  }
+  else {
+    cout<<"Nilai Dasri Hasil Adalah Negatif ";
+  }
+  cout<<"\n\n************  Pemrograman Ini Adalah Program Untuk Menjumlahkan!!!  ************ ";
+  cout<<"\n\n--------------------------------- TERIMAKASIH ---------------------------------- ";
+  
+return 0;
+}
